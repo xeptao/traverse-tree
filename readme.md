@@ -11,11 +11,11 @@ A function that recursively traverses a tree, and prints the values while doing 
 
 This is an example tree.
 
-![example tree](/example-tree.png)
+![example tree](/assets/example-tree.png)
 
 And this is the output when you input this tree into the function.
 
-![output](/output.png)
+![output](/assets/output.png)
 
 _Python 3, Windows Terminal._
 
