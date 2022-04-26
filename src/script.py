@@ -1,8 +1,3 @@
-from classes.node import Node
-
-tree = Node(0, Node(1, Node(2), Node(3)), Node(4, Node(5), Node(6)))
-
-
 def traverse_tree(node):
     print(node.value)
 
@@ -20,7 +15,3 @@ def traverse_tree(node):
             if node.left.right or node.left.left:
                 traverse_tree(node.left.right if node.left.right else None)
                 traverse_tree(node.left.left if node.left.left else None)
-
-
-if __name__ == "__main__":
-    traverse_tree(tree)
